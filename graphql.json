@@ -1,0 +1,58 @@
+{
+    "GetTeamsQuery": {
+        "operationName":"GetTeamsQuery",
+        "variables": {
+			"limit": null
+        },
+        "extensions":{
+            "persistedQuery":{
+                "version":1,
+                "sha256Hash":"d804d830c1858ba52d8e9ed2b1954409c1e7d9135d01c52eec5f6f12a8974c66"
+            }
+        }
+    },
+
+    "GetTeamDivisionsQuery": {
+        "operationName":"GetTeamDivisionsQuery",
+		"variables":{
+			"teamId": null,
+			"limit": null
+		},
+		"extensions":{
+			"persistedQuery":{
+				"version":1,
+				"sha256Hash":"39066ec3076b168eb860b21d84a6f97e34cc0fd01c1ab2f2aa0307cf3d61c642"
+			}
+		}
+    },
+
+    "GetTeamDirectoryFoldersQuery": {
+        "operationName":"GetTeamDirectoryFoldersQuery",
+		"variables":{
+			"directoryId": null,
+			"limit":null
+		},
+		"extensions":{
+			"persistedQuery":{
+				"version":1,
+				"sha256Hash":"b3d6e752c88008ae88189baf80c448a8f43d4cabc5310164ef3a639ee5187ac6"
+			}
+		}
+    },
+
+    "GetTeamDirectoryVideosQuery": {
+		"operationName":"GetTeamDirectoryVideosQuery",
+		"variables":{
+			"directoryId": null,
+			"limit": null
+		},
+		"extensions":{
+			"persistedQuery":{
+				"version":1,
+				"sha256Hash":"60fb260a8afc7a719e098fef16028980d1e4f63bca2012c30f11e49a1bba4e8e"
+			}
+		}
+    }
+
+
+}
